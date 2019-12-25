@@ -1,0 +1,59 @@
+html,body{
+  width: 100%;
+  height: 100%;
+}
+ul,li{
+  margin: 0;
+  padding: 0;
+  list-style:none
+}
+.zdh{
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #283643;
+  width: 12rem;
+  height: calc(100% - 3.5rem);
+  margin-top: 3.5rem;
+  margin-bottom: 0;
+  padding-top: 1rem;
+}
+.zdh li{
+  padding: 0 2rem;
+  height: 3rem;
+  line-height: 3rem;
+}
+.zdh li a{
+  color: #FFF;
+  text-decoration: none;
+}
+.zdh li span{
+  margin-left: 1rem;
+}
+.dj{
+  background: #3C4248;
+}
+.zdh li:hover {
+  background: #3C4248;
+}
+.ztnr{
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 3.5rem 0 0 12rem;
+  width: calc(100% - 12rem);
+  height: calc(100% - 3.5rem);
+  overflow:auto;
+}
+.nr{
+  width: 100%;
+  padding-left: 1rem;
+}
+.kap{
+  margin-bottom: 0.5rem;
+}
+.row .col h6{
+  height: 3rem;
+  line-height: 3rem;
+  color: #6c757d;
+}
